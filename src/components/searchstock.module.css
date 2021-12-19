@@ -1,0 +1,48 @@
+.container1{
+    width: 80%;
+    margin: auto;
+    margin-top: 75px;
+}
+.container2{
+    height: 100vh;
+}
+.inpdiv{
+  position: relative;
+
+}
+.inp{
+    width: 69%;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 3px;
+    
+}
+.dropdown{
+    visibility: hidden;
+    position: absolute;
+    max-height: 800px;
+    overflow-y: scroll;
+    border-radius: 8px;
+    top: 120%;
+    width: 70%;
+    left: 15%;
+}
+
+.showdropdown{
+    visibility: visible;
+    background-color: white;
+    z-index: 1;
+}
+.stock{
+    padding: 8px 12px;
+    position: relative;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+}
+.stock_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3px 0px;
+}
